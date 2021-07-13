@@ -7,9 +7,9 @@ import numpy as np
 import joblib
 
 # Load the model
-pipeline_lr = joblib.load(open("../models/emotion_classifier.pkl", "rb"))
+pipeline_lr = joblib.load(open("models/emotion_classifier.pkl", "rb"))
 # pipeline_rf = joblib.load(open("../models/emotion_classifier_rf.pkl", "rb"))
-pipeline_xgboost = joblib.load(open("../models/emotion_classifier_xgboost.pkl", "rb"))
+pipeline_xgboost = joblib.load(open("models/emotion_classifier_xgboost.pkl", "rb"))
 
 # Functions for Logistic Regression
 def predict_emotions_lr(text):
