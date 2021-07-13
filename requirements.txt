@@ -1,0 +1,8 @@
+streamlit
+altair
+plotly
+pandas
+numpy
+seaborn
+neattext
+sklearn
